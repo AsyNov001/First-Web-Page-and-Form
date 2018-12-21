@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: gray;
+        }
+        #H {
+            color: lightcoral;
+            text-align: center;
+            text-decoration-style: dashed;
+            text-decoration:lightcoral;
+            text-decoration-line: underline;
+            font-size: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .L {
+            color: lightcoral;
+            text-align: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .LL {
+            color: black !important;
+            text-align: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>  
+    <p>
+        <h3 id="H">Admission Form</h3>
+        <form>
+            <ol type="1">
+                <li class="L">Name &nbsp;<input type="text" placeholder="Enter Name Here"></li>
+                <br>
+                <li class="L">Mobile Number &nbsp;<input type="text" placeholder="Enter The Number Here"></li>
+                <br>
+                <li class="L">Email Id &nbsp; <input type="email" placeholder="Enter Your Id"></li>
+                <br>
+                <li class="L">Date of birth &nbsp; <input type="date"></li>
+                <br>
+                <li class="L">Nationality &nbsp; <input type="text"></li>
+                <br>
+                <li class="L">Address &nbsp; <input type="text" placeholder="Enter Your Address"></li>
+                <br>
+                <li class="L">Choose your course(Any ONE) &nbsp;</li>
+                <br>
+                <ul class="L1">
+                    <li class="LL">Web Development<input type="radio" name="course" value="Web Development"></li>
+                    <li class="LL">Android Development<input type="radio" name="course" value="Android Development"></li>
+                    <li class="LL">Game Development<input type="radio" name="course" value="Game Development"></li>
+                    <li class="LL">Web Development Using Django<input type="radio" name="course" value="Web Development 2"></li>
+                    <li class="LL">Machine Learning<input type="radio" name="course" value="Machine Learning"></li>
+                    <li class="LL">Backend Java<input type="radio" name="course" value="Backend Java"></li>
+                </ul>
+                <br>
+                <li class="L">From where did you got to know about Coding Blocks &nbsp;</li>
+                <br>
+                <ul class="L1">
+                    <li class="LL">Friend/Relative<input type="checkbox" value="op1"></li>
+                    <li class="LL">Newspaper<input type="checkbox" value="op2"></li>
+                    <li class="LL">Advertisment<input type="checkbox" value="op3"></li>
+                    <li class="LL">Workshop<input type="checkbox" value="op4"></li>
+                    <li class="LL">Social Media<input type="checkbox" value="op5"></li>
+                    <li class="LL">E Mail<input type="checkbox" value="op6"></li>
+                    <li class="LL">Telephone<input type="checkbox" value="op7"></li>
+                </ul>
+                <br>
+                <li class="L">Preferred Batch</li>
+                <br>
+                <ul class="L">
+                    <li class="LL"><input type="radio" name="Q">Morning</li>
+                    <li class="LL"><input type="radio" name="Q">Evening</li>
+                </ul>
+          </ol>
+          <input id="IMP"type="reset">
+          <input id="IMP"type="submit"> 
+        </form>
+    </p>
+</body>
+</html>
